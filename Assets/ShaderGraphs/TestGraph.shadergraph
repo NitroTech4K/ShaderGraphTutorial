@@ -218,9 +218,6 @@
         },
         {
             "m_Id": "2f6d33becfc547658a79598e1908f06c"
-        },
-        {
-            "m_Id": "00332c3dc23b434eb279f9d0a891ba34"
         }
     ],
     "m_GroupDatas": [],
@@ -257,6 +254,9 @@
         },
         {
             "m_Id": "5c469a14ee0c47c49a5fa901f6750bd1"
+        },
+        {
+            "m_Id": "fc906170be9f4e78b2ca88e6d7ae83fb"
         }
     ],
     "m_Edges": [
@@ -1113,51 +1113,6 @@
 }
 
 {
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.TimeNode",
-    "m_ObjectId": "00332c3dc23b434eb279f9d0a891ba34",
-    "m_Group": {
-        "m_Id": ""
-    },
-    "m_Name": "Time",
-    "m_DrawState": {
-        "m_Expanded": true,
-        "m_Position": {
-            "serializedVersion": "2",
-            "x": -2769.0,
-            "y": -1014.0,
-            "width": 124.0,
-            "height": 173.0
-        }
-    },
-    "m_Slots": [
-        {
-            "m_Id": "90dc3d16ec0746f09b13fe996a4d6a35"
-        },
-        {
-            "m_Id": "a9ea2a0b5ca74677b4fd0536a0f0ddc8"
-        },
-        {
-            "m_Id": "9fe257b52ae24ee6bca956c13c058985"
-        },
-        {
-            "m_Id": "c8fa94ce69d14491ab1ed8973b2293cc"
-        },
-        {
-            "m_Id": "51cd066486d14cf1a862c7eea55ea9cc"
-        }
-    ],
-    "synonyms": [],
-    "m_Precision": 0,
-    "m_PreviewExpanded": true,
-    "m_DismissedVersion": 0,
-    "m_PreviewMode": 0,
-    "m_CustomColors": {
-        "m_SerializableColors": []
-    }
-}
-
-{
     "m_SGVersion": 1,
     "m_Type": "UnityEditor.Rendering.Universal.ShaderGraph.UniversalTarget",
     "m_ObjectId": "00d2128db4e84398be72a6f7c302fa06",
@@ -1625,16 +1580,16 @@
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
     "m_ObjectId": "0c20d1fc5b5c4e3b8704afb3cfec5960",
-    "m_Title": "4. Multiply",
-    "m_Content": "Takes two outputs and merges them into one output. We can also put values in either slot A or B, when they're empty for more control. But they're connected, so lets move on to the next step.",
+    "m_Title": "12. Multiply",
+    "m_Content": "Add a Multiply node, and connect our Remap node's Output slot, to the A slot on on the Multiply node.\n\nNow, connect the Random Range node's Output slot, to the B slot on on the Multiply node.",
     "m_TextSize": 0,
     "m_Theme": 0,
     "m_Position": {
         "serializedVersion": "2",
-        "x": -2678.0,
-        "y": -1514.0,
+        "x": -2679.0,
+        "y": -1504.0,
         "width": 200.0,
-        "height": 160.0
+        "height": 151.0
     },
     "m_Group": {
         "m_Id": ""
@@ -3454,16 +3409,16 @@
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
     "m_ObjectId": "4b925b8d54754343840f90a740a61ce1",
-    "m_Title": "3. Simple Noise",
-    "m_Content": "Once this node and the Random Range nodes are connected, this acts as a way to move different verticies of the mesh individually from each other. So the entire model won't be moving as once solid piece.\n\nWe can change the scale of the noise as well!",
+    "m_Title": "8. Simple Noise",
+    "m_Content": "Add a Simple Noise node. Connect the G slot from the Split node, to the UV(2) node.\n\nNow, play around with the Scale slot's values, on the Simple Noise Node. We're squishing down the scale of the Simple Noise node, on the Y axis only. (The G slot on the Split node). This will make some dense lines we can use to manipulate the verticies of our mesh in the proper way we want.",
     "m_TextSize": 0,
     "m_Theme": 0,
     "m_Position": {
         "serializedVersion": "2",
-        "x": -3637.0,
-        "y": -1565.0,
+        "x": -3642.0,
+        "y": -1601.0,
         "width": 200.0,
-        "height": 190.2457275390625
+        "height": 240.0
     },
     "m_Group": {
         "m_Id": ""
@@ -3475,13 +3430,13 @@
     "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
     "m_ObjectId": "4bef9ea273654269ad01d9fec47dc1a2",
     "m_Title": "1. Position node",
-    "m_Content": "Graps the position from the object, screen, or the world, to allow the shader to be maipulated by these properties.\n\nI set it to World, since the hologram will be glitching based on the world''s orientation, NOT the Object's orientation. ",
+    "m_Content": "Grabs the position from the object, screen, or the world, to allow the shader to be maipulated by these properties.\n\nI set it to World, since the hologram will be glitching based on the world''s orientation, NOT the Object's orientation. ",
     "m_TextSize": 0,
     "m_Theme": 0,
     "m_Position": {
         "serializedVersion": "2",
         "x": -1236.0,
-        "y": -1086.0,
+        "y": -1087.0,
         "width": 200.0,
         "height": 160.0
     },
@@ -3524,21 +3479,6 @@
     "m_Property": {
         "m_Id": "ee989d8566fc4bd39040939e3e1ee3e6"
     }
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
-    "m_ObjectId": "51cd066486d14cf1a862c7eea55ea9cc",
-    "m_Id": 4,
-    "m_DisplayName": "Smooth Delta",
-    "m_SlotType": 1,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "Smooth Delta",
-    "m_StageCapability": 3,
-    "m_Value": 0.0,
-    "m_DefaultValue": 0.0,
-    "m_Labels": []
 }
 
 {
@@ -4009,10 +3949,10 @@
     "m_Theme": 0,
     "m_Position": {
         "serializedVersion": "2",
-        "x": 647.0,
-        "y": -917.0,
+        "x": 946.0,
+        "y": -314.0,
         "width": 200.0,
-        "height": 252.05224609375
+        "height": 252.0
     },
     "m_Group": {
         "m_Id": ""
@@ -4576,16 +4516,16 @@
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
     "m_ObjectId": "71f2c27b164542c399ac16a91c3ac3b1",
-    "m_Title": "6. Remap",
-    "m_Content": "This takes our greyed out noise, and turns it black and white depending on our values. Making the randomness mroe noticable and not looking so uniform.\n ",
+    "m_Title": "9. Remap",
+    "m_Content": "Add a Remap node, and connect the Output from the Simple Noise's Output slot, and connect it to the Input slot on the Remap node's Input slot.\n\nNow we have 2 slots. \n\n- In Min Max(2)\n- Out Min Max(2)\n\n\nDon't connect any wires to these slots! We need to set these values manually.\n\n\nHere's what we need to do:\n\n- In the InMinMax(2) slot, change your X value to 0, and your Y value to 1\n\n- In the OutMinMax(2) slot, set your X value to -1, and your Y value to 1\n\n\nWhat this does, is it inverts the simple noise, and cleans it up significantly. Showing mainly black and white, which will act as our map to displace our verticies like a glitch effect.",
     "m_TextSize": 0,
     "m_Theme": 0,
     "m_Position": {
         "serializedVersion": "2",
-        "x": -2909.0,
-        "y": -1905.0,
+        "x": -3034.0,
+        "y": -2190.0,
         "width": 200.0,
-        "height": 160.0
+        "height": 491.0
     },
     "m_Group": {
         "m_Id": ""
@@ -5393,21 +5333,6 @@
 }
 
 {
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
-    "m_ObjectId": "90dc3d16ec0746f09b13fe996a4d6a35",
-    "m_Id": 0,
-    "m_DisplayName": "Time",
-    "m_SlotType": 1,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "Time",
-    "m_StageCapability": 3,
-    "m_Value": 0.0,
-    "m_DefaultValue": 0.0,
-    "m_Labels": []
-}
-
-{
     "m_SGVersion": 1,
     "m_Type": "UnityEditor.ShaderGraph.NoiseNode",
     "m_ObjectId": "9186a213a1644b8d87afc680a1ff7fb8",
@@ -6009,21 +5934,6 @@
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
-    "m_ObjectId": "9fe257b52ae24ee6bca956c13c058985",
-    "m_Id": 2,
-    "m_DisplayName": "Cosine Time",
-    "m_SlotType": 1,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "Cosine Time",
-    "m_StageCapability": 3,
-    "m_Value": 0.0,
-    "m_DefaultValue": 0.0,
-    "m_Labels": []
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "9fe71713e2494c7e97b8b57bcac98e78",
     "m_Id": 0,
     "m_DisplayName": "Time",
@@ -6146,8 +6056,8 @@
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
     "m_ObjectId": "a49962b699dd4872af5d6252c181847b",
-    "m_Title": "5. Position node",
-    "m_Content": "Graps the position from the object, screen, or the world, to allow the shader to be maipulated by these properties.",
+    "m_Title": "6. Position node",
+    "m_Content": "Same as in step one, we need to add another Position node.\n\nSet the space to World.",
     "m_TextSize": 0,
     "m_Theme": 0,
     "m_Position": {
@@ -6190,8 +6100,8 @@
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
     "m_ObjectId": "a5c7d7578ec0456ca4edd95ea06e0992",
-    "m_Title": "2. Random Range",
-    "m_Content": "This makes our model and  it's verticies move randomly. But on it's own without the Simple Noise node, it just moves the entire model.\n",
+    "m_Title": "11. Random Range",
+    "m_Content": "Add a Random Range node, and connect the Delta Time slot from the Time node, and connect it to the Seed slot on the Random Range node.\n\nThis makes our model and it's verticies move randomly.\n",
     "m_TextSize": 0,
     "m_Theme": 0,
     "m_Position": {
@@ -6270,21 +6180,6 @@
         "x": 0.0,
         "y": 1.0
     }
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
-    "m_ObjectId": "a9ea2a0b5ca74677b4fd0536a0f0ddc8",
-    "m_Id": 1,
-    "m_DisplayName": "Sine Time",
-    "m_SlotType": 1,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "Sine Time",
-    "m_StageCapability": 3,
-    "m_Value": 0.0,
-    "m_DefaultValue": 0.0,
-    "m_Labels": []
 }
 
 {
@@ -6521,8 +6416,8 @@
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
     "m_ObjectId": "b2b41826c7ce4b8cb2e9a3fbbf1a3b22",
-    "m_Title": "1. Time",
-    "m_Content": "Time node make the following nodes change overtime\n",
+    "m_Title": "10. Time",
+    "m_Content": "To make our shader not glitch overtime, we need to add a Time node. This will let our \"vertex\" map, move the verticies over time.",
     "m_TextSize": 0,
     "m_Theme": 0,
     "m_Position": {
@@ -7314,21 +7209,6 @@
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Cells",
-    "m_StageCapability": 3,
-    "m_Value": 0.0,
-    "m_DefaultValue": 0.0,
-    "m_Labels": []
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
-    "m_ObjectId": "c8fa94ce69d14491ab1ed8973b2293cc",
-    "m_Id": 3,
-    "m_DisplayName": "Delta Time",
-    "m_SlotType": 1,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "Delta Time",
     "m_StageCapability": 3,
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
@@ -8447,6 +8327,26 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "fc906170be9f4e78b2ca88e6d7ae83fb",
+    "m_Title": "7. Split",
+    "m_Content": "Just like step 2, we need to add a Split node. \n\nHowever, this time we need to grab the Y axis. This will be for a map that tells the shader to deform the mesh using flat lines going up and down",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -3453.0,
+        "y": -2175.0,
+        "width": 200.0,
+        "height": 196.0
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
 }
 
 {

@@ -44,14 +44,15 @@ Material:
     m_Ints: []
     m_Floats:
     - _Bar_Density: 2.19
+    - _Emission_Stregth: 1.29
     - _Hologram_Speed: 2.82
     - _Pixel_Speed: 52.2
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Vertex_Speed: 10
     m_Colors:
-    - _Bar_Colour: {r: 0, g: 1, b: 0.2117646, a: 0}
-    - _Main_Colour: {r: 0, g: 0.43396223, b: 0.20314655, a: 1}
+    - _Bar_Colour: {r: 0, g: 1, b: 0, a: 0}
+    - _Main_Colour: {r: 0, g: 0.28235295, b: 0, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &6134138203279456328
 MonoBehaviour:

@@ -49,7 +49,7 @@ Material:
     - _Pixel_Speed: 52.2
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Vertex_Speed: 10
+    - _Vertex_Speed: 0
     m_Colors:
     - _Bar_Colour: {r: 0, g: 1, b: 0, a: 0}
     - _Main_Colour: {r: 0, g: 0.28235295, b: 0, a: 1}

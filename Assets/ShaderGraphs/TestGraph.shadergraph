@@ -26,6 +26,9 @@
         },
         {
             "m_Id": "5fbeb819d265459991308af3a5d567fe"
+        },
+        {
+            "m_Id": "c777017b894149b8b39741cef2d12eb3"
         }
     ],
     "m_Keywords": [],
@@ -257,6 +260,12 @@
         },
         {
             "m_Id": "4f4fc1fd10b64c3a83c242298f89695b"
+        },
+        {
+            "m_Id": "53bc46d9b65b4c209d9f5355772747b9"
+        },
+        {
+            "m_Id": "fe4d5d6eabfa4f608b510995c7836d25"
         }
     ],
     "m_GroupDatas": [],
@@ -320,6 +329,75 @@
         },
         {
             "m_Id": "6720a12fc04f41d6a83099d6dd1dcb3e"
+        },
+        {
+            "m_Id": "7fe265ce79f84a9eb6d8a4231e7af159"
+        },
+        {
+            "m_Id": "619c6df530ac4c99a82e2dda488b4379"
+        },
+        {
+            "m_Id": "f9a4e520f11d47b7bc457ff0299e4317"
+        },
+        {
+            "m_Id": "fe582729fe344205bc498eebf5fc7916"
+        },
+        {
+            "m_Id": "6a4322256dd24d4287fac9a43f13589a"
+        },
+        {
+            "m_Id": "4084ae174e214a1898c7b88772d0336a"
+        },
+        {
+            "m_Id": "ae1c0cfe814a4d5289416e0f8ee02c0e"
+        },
+        {
+            "m_Id": "af5689ac672949c2bf297e86f0669cf7"
+        },
+        {
+            "m_Id": "b951adfb000a4fe0a23d1cc485986b47"
+        },
+        {
+            "m_Id": "d3f2c0efd7ce4faa96a478fa6b8c513c"
+        },
+        {
+            "m_Id": "7e656b5b05084d0e8bc0dafab4f70772"
+        },
+        {
+            "m_Id": "22b253f748144058941953b63bcd8c38"
+        },
+        {
+            "m_Id": "4d745651c1774ea7adbd68ec62e49200"
+        },
+        {
+            "m_Id": "edb2d02cacc0490dba0682a8ab0f2194"
+        },
+        {
+            "m_Id": "b5f4766e8cf64bbfb6896408a036d652"
+        },
+        {
+            "m_Id": "bad433cd333c41e1a3a88666ff653c00"
+        },
+        {
+            "m_Id": "8e506f5ac913441ba37e570b502971cb"
+        },
+        {
+            "m_Id": "1b0e8f7bad5548e78177bfd7541a6fb0"
+        },
+        {
+            "m_Id": "28ff38d98f5b44efa55828687594a56b"
+        },
+        {
+            "m_Id": "36be966103f943449e495eaeb37520e3"
+        },
+        {
+            "m_Id": "a116cdfeeaa7482189f65bddddd1f6f7"
+        },
+        {
+            "m_Id": "551d26a0d5f34968bfaaf4733f03b404"
+        },
+        {
+            "m_Id": "e6c8e0e408a24a39b8074807bddef6a9"
         }
     ],
     "m_Edges": [
@@ -370,13 +448,13 @@
                 "m_Node": {
                     "m_Id": "06250df3650a44dcadc762b2b4cf7bea"
                 },
-                "m_SlotId": 1
+                "m_SlotId": 0
             },
             "m_InputSlot": {
                 "m_Node": {
-                    "m_Id": "451200e6b105484c94c79db1e5b7e56d"
+                    "m_Id": "fe4d5d6eabfa4f608b510995c7836d25"
                 },
-                "m_SlotId": 1
+                "m_SlotId": 0
             }
         },
         {
@@ -767,6 +845,20 @@
             "m_InputSlot": {
                 "m_Node": {
                     "m_Id": "cb5f6de27f974f75a989f719f25a13f8"
+                },
+                "m_SlotId": 2
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "53bc46d9b65b4c209d9f5355772747b9"
+                },
+                "m_SlotId": 0
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "21bedc5342474070a74ba2d89039d974"
                 },
                 "m_SlotId": 2
             }
@@ -1292,6 +1384,20 @@
         {
             "m_OutputSlot": {
                 "m_Node": {
+                    "m_Id": "fe4d5d6eabfa4f608b510995c7836d25"
+                },
+                "m_SlotId": 3
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "451200e6b105484c94c79db1e5b7e56d"
+                },
+                "m_SlotId": 1
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
                     "m_Id": "fe93799e6f864338b2c8339888649a70"
                 },
                 "m_SlotId": 3
@@ -1513,7 +1619,7 @@
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
     "m_ObjectId": "0469230b584a4d39a4a0d9a2f897982d",
-    "m_Title": "18. Remap",
+    "m_Title": "19. Remap",
     "m_Content": "Add a Remap node, and connect the Output slot from the Multiply node, to the the Input slot on the Remap node.\n\nNow, connect the Output slot from the Remap node, to the Edge slot from the Step node.",
     "m_TextSize": 0,
     "m_Theme": 0,
@@ -2409,16 +2515,16 @@
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
     "m_ObjectId": "1a702b42d8774495934d5ce6f152fe8e",
-    "m_Title": "16. Vertex Speed",
-    "m_Content": "In order to control the speed of our verticies, we need to make a float. On the top right of the shader graph, click the + button to add a float to the list. \n\nName it \"Vertex Speed\".\n\nNow, drag and drop the Vertex Speed float into the shadergraph",
+    "m_Title": "16. Vertex Glitch Delay",
+    "m_Content": "In order to control the timing between glitches of our verticies, we need to make a float. On the top right of the shader graph, click the + button to add a float to the list. \n\nName it \"Vertex Glitch Delay\".\n\nNow, drag and drop the Vertex Glitch Delay float into the shadergraph",
     "m_TextSize": 0,
     "m_Theme": 0,
     "m_Position": {
         "serializedVersion": "2",
-        "x": -4408.0,
-        "y": -574.0,
-        "width": 200.0,
-        "height": 205.16851806640626
+        "x": -4527.0,
+        "y": -606.0,
+        "width": 181.0,
+        "height": 232.125244140625
     },
     "m_Group": {
         "m_Id": ""
@@ -2474,6 +2580,26 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "1b0e8f7bad5548e78177bfd7541a6fb0",
+    "m_Title": "38. Main Colour",
+    "m_Content": "Create a Color value from the top right of the screen, and set a default value in the Graph Inspector on the top left of the Shadergraph window.\n\nThis will overlay a colour overtop of our base texture, acting as part of our hologram effect. ",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -1659.0,
+        "y": 2620.0,
+        "width": 200.0,
+        "height": 160.0
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
 }
 
 {
@@ -2618,6 +2744,26 @@
         "m_SerializableColors": []
     },
     "m_HashType": 0
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "22b253f748144058941953b63bcd8c38",
+    "m_Title": "33. Multiply",
+    "m_Content": "Add a Multiply node, and connect the Time(1) slot in the Time node, to the A slot in the Multiply node.\n\nThen connect the Pixel Speed float value to the B slot on the Multiply node.",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -1464.0,
+        "y": 4455.0,
+        "width": 200.0,
+        "height": 160.0
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
 }
 
 {
@@ -2878,6 +3024,26 @@
     "m_PreviewMode": 0,
     "m_CustomColors": {
         "m_SerializableColors": []
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "28ff38d98f5b44efa55828687594a56b",
+    "m_Title": "39. Blend",
+    "m_Content": "Add a Blend node, and connect the RGBA slot from the Sample texture 2D node, and connect it to the Base(4) slot on the Blend node.\n\nThen, connect the Main Colour(4) value to the Blend(4) slot.\n\nSet the Opacity to 2.5 to show the effect. \n\nChange the Mode to Lighten for the best results.",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -974.0,
+        "y": 2055.0,
+        "width": 200.0,
+        "height": 222.82080078125
+    },
+    "m_Group": {
+        "m_Id": ""
     }
 }
 
@@ -3325,10 +3491,10 @@
     "m_Guid": {
         "m_GuidSerialized": "eae0a17c-ecc5-454e-a75e-6b306459983c"
     },
-    "m_Name": "Vertex Speed",
+    "m_Name": "Vertex Glitch Delay",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "Vertex Speed",
-    "m_DefaultReferenceName": "_Vertex_Speed",
+    "m_RefNameGeneratedByDisplayName": "Vertex Glitch Delay",
+    "m_DefaultReferenceName": "_Vertex_Glitch_Delay",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -3338,11 +3504,11 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
-    "m_Value": 1.4500000476837159,
+    "m_Value": 0.0,
     "m_FloatType": 1,
     "m_RangeValues": {
         "x": 0.0,
-        "y": 10.0
+        "y": 1.0
     }
 }
 
@@ -3458,6 +3624,26 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "36be966103f943449e495eaeb37520e3",
+    "m_Title": "40. Blend",
+    "m_Content": "Add one more Blend node, and connect these three things.\n-----------------------------------\n\n- Connect the Output slot on the Blend node from step 39, to the Base(3) slot on the Blend node in step 40\n\n- Connect the Output slot on the Multiply node from step 35, to the Blend(3) slot on the Blend node in step 40.\n\n- Connect the Output slot from the Blend node in step 39, to the Base Color slot in the Fragment node\n\n-----------------------------------",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -20.0,
+        "y": 1976.0,
+        "width": 200.0,
+        "height": 287.0
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "386498bcaa2147848ca20f6f8db16ce5",
     "m_Id": 0,
@@ -3550,7 +3736,7 @@
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
     "m_ObjectId": "3cd2c3cf16ea42ea9a70a490f0f71d1b",
-    "m_Title": "19. Multiply",
+    "m_Title": "20. Multiply",
     "m_Content": "Add a Multiply node, and connect the Output slot from the Multiply node on step 12, to the A slot on this Multiply node here.\n\nConnect the Output slot from the Step node, and connect it to the B slot on the Multiply node.\n\nFinally, connect the Output slot from the Multiply node, to the A slot on the Add node on step 3.",
     "m_TextSize": 0,
     "m_Theme": 0,
@@ -3612,7 +3798,7 @@
     "m_ShaderOutputName": "B",
     "m_StageCapability": 3,
     "m_Value": {
-        "e00": 2.0,
+        "e00": 0.0,
         "e01": 2.0,
         "e02": 2.0,
         "e03": 2.0,
@@ -3733,6 +3919,26 @@
     "m_PreviewMode": 0,
     "m_CustomColors": {
         "m_SerializableColors": []
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "4084ae174e214a1898c7b88772d0336a",
+    "m_Title": "27. Voronoi",
+    "m_Content": "Add a Voronoi node, and connect these two things to it.\n\nConnect the Output slot from the Tiling And Offset node, to the UV(2) slot on the Voronoi node. \n\nThen, connect the Bar Density float to the CellDensity(1) slot on the Voronoi node.",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -2671.0,
+        "y": 3579.0,
+        "width": 200.0,
+        "height": 189.565185546875
+    },
+    "m_Group": {
+        "m_Id": ""
     }
 }
 
@@ -3951,6 +4157,21 @@
     "m_CustomColors": {
         "m_SerializableColors": []
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "44ad944560db470b97c95370a657c3b3",
+    "m_Id": 2,
+    "m_DisplayName": "Max",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Max",
+    "m_StageCapability": 3,
+    "m_Value": 1.0,
+    "m_DefaultValue": 1.0,
+    "m_Labels": []
 }
 
 {
@@ -4263,6 +4484,26 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "4d745651c1774ea7adbd68ec62e49200",
+    "m_Title": "34. Voronoi",
+    "m_Content": "Add another Voronoi node, and connect the Output slot from the Multiply node, to the AngleOffset slot on the Voronoi node.",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -758.0,
+        "y": 4431.0,
+        "width": 200.0,
+        "height": 160.0
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.MultiplyNode",
     "m_ObjectId": "4f4fc1fd10b64c3a83c242298f89695b",
     "m_Group": {
@@ -4393,6 +4634,42 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
+    "m_ObjectId": "53bc46d9b65b4c209d9f5355772747b9",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "Property",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": -1048.0,
+            "y": 4822.0,
+            "width": 181.0,
+            "height": 34.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "d28d58b116a24082830fc89e670c94e8"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_DismissedVersion": 0,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_Property": {
+        "m_Id": "c777017b894149b8b39741cef2d12eb3"
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
     "m_ObjectId": "540d89700a2446669034b654f0e8a1ff",
     "m_Id": 0,
@@ -4460,6 +4737,26 @@
         "e31": 0.0,
         "e32": 0.0,
         "e33": 1.0
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "551d26a0d5f34968bfaaf4733f03b404",
+    "m_Title": "17. Random Range",
+    "m_Content": "Add another Random Range node to increase the randomness for the glitch effect.\n\nSet the min to 0, and the max to 1\n\nConnect the Time(1) slot from the Time node, to the Seed slot in the Random Range node",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -4064.0,
+        "y": -605.0,
+        "width": 200.0,
+        "height": 160.0
+    },
+    "m_Group": {
+        "m_Id": ""
     }
 }
 
@@ -4560,7 +4857,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "580a7f39ca0a4d1f9841649cf6547157",
     "m_Id": 0,
-    "m_DisplayName": "Vertex Speed",
+    "m_DisplayName": "Vertex Glitch Delay",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -4931,6 +5228,9 @@
         },
         {
             "m_Id": "5fbeb819d265459991308af3a5d567fe"
+        },
+        {
+            "m_Id": "c777017b894149b8b39741cef2d12eb3"
         }
     ]
 }
@@ -4942,10 +5242,10 @@
     "m_Guid": {
         "m_GuidSerialized": "8b6bd117-8708-4eb4-a251-6829019dd200"
     },
-    "m_Name": "Emission Stregth",
+    "m_Name": "Emission Strength",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "Emission Stregth",
-    "m_DefaultReferenceName": "_Emission_Stregth",
+    "m_RefNameGeneratedByDisplayName": "Emission Strength",
+    "m_DefaultReferenceName": "_Emission_Strength",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -4955,11 +5255,31 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
-    "m_Value": 0.3400000035762787,
+    "m_Value": 1.0,
     "m_FloatType": 0,
     "m_RangeValues": {
         "x": 0.0,
         "y": 1.0
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "619c6df530ac4c99a82e2dda488b4379",
+    "m_Title": "22. Hologram Speed",
+    "m_Content": "Create a new float called \"Hologram Speed\", and drag and drop it into the shadergraph \n\nThis will allow us to change the speed at how fast the effect will play.",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -5082.0,
+        "y": 4278.0,
+        "width": 200.0,
+        "height": 160.0
+    },
+    "m_Group": {
+        "m_Id": ""
     }
 }
 
@@ -5086,8 +5406,8 @@
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
     "m_ObjectId": "6720a12fc04f41d6a83099d6dd1dcb3e",
-    "m_Title": "20 Time",
-    "m_Content": "Now that we have our physical properties of our shader done, we need to make the holograph effect. \n\nNow we need the ",
+    "m_Title": "21. Time",
+    "m_Content": "Now that we have our physical properties of our shader done, we need to make the holograph effect. \n\nNow, add a Time node ",
     "m_TextSize": 0,
     "m_Theme": 0,
     "m_Position": {
@@ -5168,7 +5488,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "6934fb388a374ff29f7fcd6bc5492afe",
     "m_Id": 0,
-    "m_DisplayName": "Emission Stregth",
+    "m_DisplayName": "Emission Strength",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -5244,6 +5564,26 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "6a4322256dd24d4287fac9a43f13589a",
+    "m_Title": "26. Bar Density",
+    "m_Content": "Add a float value called \"Bar Density\", and drag and drop it into the shadergraph scene.\n\nThis will be used later to control the density of hologram lines.",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -3071.0,
+        "y": 4490.0,
+        "width": 200.0,
+        "height": 160.0
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
 }
 
 {
@@ -5425,6 +5765,21 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "6f82bad4f4404d9fb110bb110fa0b4fb",
+    "m_Id": 1,
+    "m_DisplayName": "Min",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Min",
+    "m_StageCapability": 3,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.TimeNode",
     "m_ObjectId": "6fe10cdabf264707ae4548dbe5b93be3",
     "m_Group": {
@@ -5466,6 +5821,21 @@
     "m_CustomColors": {
         "m_SerializableColors": []
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "700e90c095834ad1b0b633263610e64a",
+    "m_Id": 3,
+    "m_DisplayName": "Out",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Out",
+    "m_StageCapability": 3,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
 }
 
 {
@@ -6122,6 +6492,47 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
+    "m_ObjectId": "7dd3e38306d24c6dbab311a76a733424",
+    "m_Id": 0,
+    "m_DisplayName": "Seed",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Seed",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "7e656b5b05084d0e8bc0dafab4f70772",
+    "m_Title": "32. Pixel Speed",
+    "m_Content": "Create a float value called \"Pixel Speed\" and drag and drop it into the shadergraph. This will allow us to control the speed our Voronoi texture ",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -1826.0,
+        "y": 4813.0,
+        "width": 200.0,
+        "height": 160.0
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.BlockNode",
     "m_ObjectId": "7e6fcec68c8d4fb8985f9538f2e134f1",
     "m_Group": {
@@ -6197,6 +6608,26 @@
         "y": 0.0,
         "z": 0.0,
         "w": 0.0
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "7fe265ce79f84a9eb6d8a4231e7af159",
+    "m_Title": "23. Multiply",
+    "m_Content": "Add a Multiplay node, and connect the Time(1) slot from the Time node, to the A slot in the Multiply node\n\nThen, connect the float \"Hologram Speed\" to the B slot on the Multiply node.",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -4590.0,
+        "y": 3663.0,
+        "width": 200.0,
+        "height": 160.0
+    },
+    "m_Group": {
+        "m_Id": ""
     }
 }
 
@@ -6618,6 +7049,26 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "8e506f5ac913441ba37e570b502971cb",
+    "m_Title": "37. Sample Texture 2D",
+    "m_Content": "Add a Sample Texture 2D node, and connect the Albedo(T2) value we made, to the Texture(T2) slot on the Sample Texture 2D node. \n\nThis node represents our object's base texture, in which the holographic effect will be overlayed on top of it.",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -2481.0,
+        "y": 2104.0,
+        "width": 200.0,
+        "height": 180.676513671875
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
 }
 
 {
@@ -7341,6 +7792,26 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "a116cdfeeaa7482189f65bddddd1f6f7",
+    "m_Title": "41. Emission Strength",
+    "m_Content": "Create a float value, in the top left of the shadergraph, and name it \"Emission Strength\".\n\nDrag and drop in the Emission Strength float value into the shadergraph.\n\nIn the Graph Inspector, set the deafult value for the Emission Strength float to 1.",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": 275.0,
+        "y": 3206.0,
+        "width": 200.0,
+        "height": 225.0
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicValueMaterialSlot",
     "m_ObjectId": "a26278c52fd9473f8771c4808819c3d8",
     "m_Id": 1,
@@ -7519,8 +7990,8 @@
     "m_Theme": 0,
     "m_Position": {
         "serializedVersion": "2",
-        "x": -5037.0,
-        "y": -921.0,
+        "x": -4951.0,
+        "y": -958.0,
         "width": 200.0,
         "height": 163.0
     },
@@ -7711,7 +8182,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "aa79ecd806374284a31575fb44764779",
     "m_Id": 0,
-    "m_DisplayName": "Vertex Speed",
+    "m_DisplayName": "Vertex Glitch Delay",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -7734,6 +8205,26 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "ae1c0cfe814a4d5289416e0f8ee02c0e",
+    "m_Title": "28. Remap",
+    "m_Content": "Just like in step 9 in the verticy properties, we're goign to use a Remap node to clearly separate the black and white portions of the Voronoi node.\n\nAdd a Remap node, and connect the Output slot from the Voronoi node, to the In(1) slot on the Remap node. \n\nSet the values to these\n\n\nIn Min Max(2) \n----------------\nX = 0.37\nY = 1\n\n\nOut Min Max(2) \n----------------\nX = 0\nY = 1",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -1956.0,
+        "y": 2981.0,
+        "width": 200.0,
+        "height": 375.0
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
 }
 
 {
@@ -7801,6 +8292,26 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "af5689ac672949c2bf297e86f0669cf7",
+    "m_Title": "29. Bar Colour",
+    "m_Content": "Add a Color node, like you would a float, and name it \"Bar Colour\"\n\nDrag and drop it into the shadergraph.\n\nThis is so we can later set the colour for just the scrolling bars, like you'd see in a hologram.",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -1351.0,
+        "y": 3473.0,
+        "width": 200.0,
+        "height": 190.0
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "af9308fc4a4d4071a2ec608103f3192e",
     "m_Id": 3,
@@ -7826,9 +8337,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1528.999755859375,
-            "y": -3918.0,
-            "width": 208.0001220703125,
+            "x": -1404.9998779296875,
+            "y": -3929.999755859375,
+            "width": 208.0,
             "height": 302.0
         }
     },
@@ -7927,9 +8438,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1650.0001220703125,
-            "y": 2548.0,
-            "width": 140.0,
+            "x": -1630.0,
+            "y": 2586.0,
+            "width": 140.0001220703125,
             "height": 34.0
         }
     },
@@ -8097,9 +8608,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -505.0001220703125,
-            "y": 3449.000244140625,
-            "width": 207.99996948242188,
+            "x": -420.00006103515627,
+            "y": 3811.0,
+            "width": 208.0001220703125,
             "height": 302.0
         }
     },
@@ -8167,6 +8678,26 @@
     "m_PreviewMode": 0,
     "m_CustomColors": {
         "m_SerializableColors": []
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "b5f4766e8cf64bbfb6896408a036d652",
+    "m_Title": "35. Multiply",
+    "m_Content": "Add a Multiply node, and connect the Output slot in the Replace Color node, to the A slot in the Multiply node.\n\nThen connect the Cells slot from the Voronoi node in step 34, to the B slot on the Multiply node.",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -89.0,
+        "y": 3916.0,
+        "width": 200.0,
+        "height": 160.0
+    },
+    "m_Group": {
+        "m_Id": ""
     }
 }
 
@@ -8288,10 +8819,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -4835.0,
-            "y": -1070.0,
+            "x": -4749.0,
+            "y": -1107.0,
             "width": 208.0,
-            "height": 326.000244140625
+            "height": 326.0
         }
     },
     "m_Slots": [
@@ -8350,6 +8881,26 @@
         "m_SerializableColors": []
     },
     "m_SerializedDescriptor": "VertexDescription.Tangent"
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "b951adfb000a4fe0a23d1cc485986b47",
+    "m_Title": "30. Replace Colour",
+    "m_Content": "Add a Replace Color node, and attach the Output slot from the Remap node, to the Input slot on the Replace Color Node.\n\nThen, connect the Bar Colour float, to the To(3) slot on the Replace Colour node.\n\nPlay around with the Range and Fuzziness values untill you get a nice black and white effect that is clear.",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -942.0,
+        "y": 3133.0,
+        "width": 200.0,
+        "height": 218.0
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
 }
 
 {
@@ -8426,6 +8977,26 @@
     "m_PreviewMode": 0,
     "m_CustomColors": {
         "m_SerializableColors": []
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "bad433cd333c41e1a3a88666ff653c00",
+    "m_Title": "36. Albedo(T2)",
+    "m_Content": "Create a Texture2D value in the top left of the screen.\n\nThis will allow us to change our model's base texture within the Unity Inspector",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -2716.0,
+        "y": 2127.0,
+        "width": 161.2783203125,
+        "height": 160.0
+    },
+    "m_Group": {
+        "m_Id": ""
     }
 }
 
@@ -8887,6 +9458,34 @@
 }
 
 {
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty",
+    "m_ObjectId": "c777017b894149b8b39741cef2d12eb3",
+    "m_Guid": {
+        "m_GuidSerialized": "d2be2935-3453-429f-aa34-8ffa61ebde41"
+    },
+    "m_Name": "Static Noise Density",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "Static Noise Density",
+    "m_DefaultReferenceName": "_Static_Noise_Density",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": 48.29999923706055,
+    "m_FloatType": 0,
+    "m_RangeValues": {
+        "x": 0.0,
+        "y": 1.0
+    }
+}
+
+{
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "c7f45198e9c34a71a76442a5ecd0827f",
@@ -9106,6 +9705,41 @@
     },
     "m_Labels": [],
     "m_Space": 0
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "d28d58b116a24082830fc89e670c94e8",
+    "m_Id": 0,
+    "m_DisplayName": "Static Noise Density",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Out",
+    "m_StageCapability": 3,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "d3f2c0efd7ce4faa96a478fa6b8c513c",
+    "m_Title": "31. Time",
+    "m_Content": "Just like before, add a time node here.\n\nThis will cause a seperate Voronoi texture to animate like TV static, adding to the effect.",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -1790.0,
+        "y": 4299.0,
+        "width": 200.0,
+        "height": 160.0
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
 }
 
 {
@@ -9354,7 +9988,7 @@
     "m_ShaderOutputName": "A",
     "m_StageCapability": 3,
     "m_Value": {
-        "e00": 0.0,
+        "e00": 0.75,
         "e01": 0.0,
         "e02": 0.0,
         "e03": 0.0,
@@ -9590,6 +10224,26 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "e6c8e0e408a24a39b8074807bddef6a9",
+    "m_Title": "42. Multiply",
+    "m_Content": "Add a Multiply node, and connect these two things.\n-----------------------------------\n\n\nConnect the Output slot on the Blend node from step 40, to the A slot on the Multiply node.\n\nConnect the Emission Stength float value to the B slot on the Multiply node.\n\nFinally, connect the Output slot on the Multiply node, to the Emission slot on the Fragment node.",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": 710.0,
+        "y": 2703.0,
+        "width": 200.0,
+        "height": 273.5
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicValueMaterialSlot",
     "m_ObjectId": "e812a6e5dbf54a43976f43a72e1106bf",
     "m_Id": 0,
@@ -9738,6 +10392,26 @@
         "m_SerializableColors": []
     },
     "m_SerializedDescriptor": "SurfaceDescription.BaseColor"
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "edb2d02cacc0490dba0682a8ab0f2194",
+    "m_Title": "35. Static Noise Density",
+    "m_Content": "cretye a new float value, called \"Static Noise Density\", and connect it to the CellDensity slot on the Voronoi node.\n\nThis allows us to change the density of the noise within the Unity Inspector.\n\nSet the default value to a high number, like 200 for example, by clicking on the Static Noise Density float, and changing the default value in the Graph Inspector on the top right of the Shadergraph.",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -1048.0,
+        "y": 4859.0,
+        "width": 200.00006103515626,
+        "height": 273.14599609375
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
 }
 
 {
@@ -9963,9 +10637,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 502.99993896484377,
-            "y": 3194.0,
-            "width": 162.99993896484376,
+            "x": 479.0,
+            "y": 3191.999755859375,
+            "width": 169.99993896484376,
             "height": 34.0
         }
     },
@@ -10087,10 +10761,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -4380.0,
-            "y": -627.0000610351563,
-            "width": 146.0,
-            "height": 34.0
+            "x": -4525.0,
+            "y": -640.0000610351563,
+            "width": 175.0,
+            "height": 34.00006103515625
         }
     },
     "m_Slots": [
@@ -10179,7 +10853,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "f5c8dce981044ceca7034b2bc3949a1a",
     "m_Id": 0,
-    "m_DisplayName": "Vertex Speed",
+    "m_DisplayName": "Vertex Glitch Delay",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -10226,6 +10900,26 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "f9a4e520f11d47b7bc457ff0299e4317",
+    "m_Title": "24. Position",
+    "m_Content": "Add a Position node, and set the space to World.\n\nThis will make sure that our hologram visual effect will stay in place relative to the world's oritation, not the object. \n\n",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -3992.0,
+        "y": 2964.0,
+        "width": 200.0,
+        "height": 160.0
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
 }
 
 {
@@ -10348,6 +11042,68 @@
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.RandomRangeNode",
+    "m_ObjectId": "fe4d5d6eabfa4f608b510995c7836d25",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "Random Range",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": -4068.000244140625,
+            "y": -445.0,
+            "width": 208.000244140625,
+            "height": 326.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "7dd3e38306d24c6dbab311a76a733424"
+        },
+        {
+            "m_Id": "6f82bad4f4404d9fb110bb110fa0b4fb"
+        },
+        {
+            "m_Id": "44ad944560db470b97c95370a657c3b3"
+        },
+        {
+            "m_Id": "700e90c095834ad1b0b633263610e64a"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_DismissedVersion": 0,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "fe582729fe344205bc498eebf5fc7916",
+    "m_Title": "25. Tiling And Offset",
+    "m_Content": "Add a Tiling And Offset node, and connect the Output slot from the Position node in Step 24, to the UV(2) slot on the Tiling & Offset Node.\n\nThen, connect the Output slot on the Multiply node to the Offset slot on the Tiling & Offset node.\n\nMake sure to change the value on the X axis to 0. \n\nThe Tiling & Offset node should now have a yellow ball.",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -3600.0,
+        "y": 3505.0,
+        "width": 200.0,
+        "height": 260.695556640625
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.RandomRangeNode",
     "m_ObjectId": "fe93799e6f864338b2c8339888649a70",
     "m_Group": {
         "m_Id": ""
@@ -10391,8 +11147,8 @@
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
     "m_ObjectId": "fed8772a8dd149c783ff6a62c4c74c28",
-    "m_Title": "17. Multiply",
-    "m_Content": "Add a Multiply node, and connect the Vertex Speed float to the A slot on the multiply node, and connect the Sine Time slot from the Time node, to the B slot on the Multiply node.\n\nThis allows us to control the speed of our verticies.",
+    "m_Title": "18. Multiply",
+    "m_Content": "Add a Multiply node, and connect the Vertex Glitch Delay float to the A slot on the multiply node, and connect the Output slot from the Random Range node, to the B slot on the Multiply node.\n\nThis allows us to control the Glitch Delay of our verticies.",
     "m_TextSize": 0,
     "m_Theme": 0,
     "m_Position": {

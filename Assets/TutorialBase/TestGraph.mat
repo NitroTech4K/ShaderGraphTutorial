@@ -43,19 +43,19 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Bar_Density: 2.19
+    - _Bar_Density: -5.1
     - _Emission_Stregth: 1.29
     - _Emission_Strength: 1.22
-    - _Hologram_Speed: 7.59
-    - _Pixel_Speed: 52.2
+    - _Hologram_Speed: 2.13
+    - _Pixel_Speed: 47.54
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Static_Noise_Density: 325.3
-    - _Vertex_Glitch_Delay: 0
+    - _Vertex_Glitch_Delay: 0.663
     - _Vertex_Speed: 0.79
     m_Colors:
     - _Bar_Colour: {r: 0, g: 1, b: 0, a: 0}
-    - _Main_Colour: {r: 0, g: 0.28235295, b: 0, a: 1}
+    - _Main_Colour: {r: 0, g: 0.28235295, b: 0.10979469, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &6134138203279456328
 MonoBehaviour:
